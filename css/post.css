@@ -1,0 +1,115 @@
+.blogTite {
+    font-size: 150%;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.blogText {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 40px;
+    margin-left: 45px;
+}
+.blogAuthor {
+    padding: 0px 0px 0px 10px;
+}
+.blogContent{
+
+}
+
+/* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
+/*for edit button*/
+#edit{
+	position: absolute;
+	top: 195px;
+	right: 50px;
+	background-color: red;
+	padding: 5px 15px 5px 15px;
+	border:0px;
+	color: white;
+}
+/*for save button*/
+#save{
+	position: absolute;
+	top: 195px;
+	right: 50px;
+	background-color: red;
+	padding: 5px 15px 5px 15px;
+	border:0px;
+	color: white;
+	display: none;
+}
+/*for like button*/
+#like{
+	position: absolute;
+	left: 50px;
+	background-color: red;
+	padding: 5px 15px 5px 15px;
+	border:0px;
+	color: white;
+	cursor: pointer;
+}
+/*for para be the first one to like this*/
+#likecount{
+	position: relative;
+	top: 30px;
+	left: 40px;
+}
+/*for comment box*/
+#comment{
+	position: relative;
+	top:30px;
+	left: 40px;
+	width: 80%;
+	height: 60px;
+}
+/*for comment button*/
+#submitcomment{
+	position: relative;
+	top:35px;
+	left: 40px;
+	background-color:red;
+	padding: 5px 15px 5px 15px;
+	border:0px;
+	color: white;
+	cursor: pointer;
+}
+/*for Jimi*/
+.jimi{
+	margin-left:40px;
+}
+/*for paragraph od post written by jimi*/
+#blogBody{
+	text-align: justify;
+}
+/*for text all comments*/
+#all{
+	position: relative;
+	top: 30px;
+	left: 40px;
+	font-weight: bolder;
+}
+#allcomments{
+	position: relative;
+	top: 30px;
+	left: 40px;
+	width: 80%;
+	border: 2px solid black;
+	height: 50px;
+}
+#outer{
+	background-color: gainsboro;
+	width: 80%;
+	position: relative;
+	top: 30px;
+	left: 40px;
+	padding-bottom: 5px;
+}
+li{
+	position: relative;
+	top: 10px;
+	bottom: 10px;
+	border:1px solid white;
+	background-color: white;
+	margin: 20px 30px 10px 20px;
+	padding: 20px 30px 10px 30px;
+}

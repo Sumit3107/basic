@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+        
+        <link href='..\css\post.css' rel='stylesheet' type='text/css'>
+        <link href='..\css\header.css' rel='stylesheet' type='text/css'>
+        <link href='..\css\font.css' rel='stylesheet' type='text/css'>
+    <style>        
+    </style>     
+</head>
+<body>
+        <div class="header">
+             <!-- Insert code for Sign Up, Sign In button here. 
+               Add code for "ScriBBler" heading and the sub-heading -->
+            <!--Code for Scribbler and sub heading-->
+            <h1>ScriBBler</h1>
+            <button id="signIn">Sign In</button>
+            <button id="signUp">Sign Up</button>
+            <p>Explore, Imagine, Create</p>
+
+            <!--code for Sign up modal-->
+            <div class="signupmodal">
+                <div class="signupmodalcontent">
+                <form action='post'>    
+                    <div class="getstarted">
+                        <div class="closeup">+</div>
+                        <h3>Get Started</h3>  
+                        </div>
+                        <hr style="width: 270px; text-align: center;" >
+                        <div class="forms">
+                            <form action="post">
+                            <p class="label">Full Name</p>
+                            <input type="text" placeholder="Enter Full Name" class="inputfield" required="true"> 
+                            <p class="label">Username</p>
+                            <input type="email" placeholder="Enter Username" class="inputfield" required="true">
+                            <p class="label">Password</p>
+                            <input type="password" placeholder="Enter Password" class="inputfield" required="true">
+                            <p class="label">Confirm Password</p> 
+                            <input type="password" placeholder="Confirm Password" class="inputfield" required="true">  
+                            <button id="upbutton">Sign Up</button>
+                            </form> 
+                        </div> 
+                </div>
+            </div>
+
+            <!--Code for Sign IN modal-->
+            <div class="signinmodal">
+                <div class="signinmodalcontent">
+                    <div class="welcomeback">
+                        <div class="closein">+</div>
+                            <h3>Welcome Back!</h3>
+                        </div>
+                        <hr style="width: 270px; text-align: center;" >
+                        <div class="forms">
+                            <form action="post">
+                            <p class="label">Username</p>
+                            <input type="email" placeholder="Enter Username" class="inputfield" required="true">
+                            <p class="label">Password</p>
+                            <input type="password" placeholder="Enter Password" class="inputfield" required="true">
+                            <button id="inbutton">Sign In</button>
+                            <form>
+                        </div>
+                        <div class="move">
+                        <p>Not a member? <span id="signupmove">Sign Up</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <div class="blogContent">
+        <div id="blogTitle" class="blogTite">
+        <h id="blogTitleNew">The legacy of Jimi Hendrix</h>
+        </div>
+    </div>
+
+<div class="blogAuthor">
+
+    <!-- Insert code for Edit/Save button and  -->
+    <span><p class="jimi">Jimi</p><button id="edit">Edit</button><button id="save">Save</button></span>
+    
+</div>
+
+<div class="blogText">
+    <p id="blogBody">
+            Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz. Hendrix favored overdriven amplifiers with high volume and gain.[119] He was instrumental in developing the previously undesirable technique of guitar amplifier feedback, and helped to popularize use of the wah-wah pedal in mainstream rock.[348] He rejected the standard barre chord fretting technique used by most guitarists in favor of fretting the low 6th string root notes with his thumb.[349] He applied this technique during the beginning bars of "Little Wing", which allowed him to sustain the root note of chords while also playing melody. This method has been described as piano style, with the thumb playing what a pianist's left hand would play and the other fingers playing melody as a right hand.[350] Having spent several years fronting a trio, he developed an ability to play rhythm chords and lead lines together, giving the audio impression that more than one guitarist was performing.[351][nb 41] He was the first artist to incorporate stereophonic phasing effects in rock music recordings.[354] Holly George-Warren of Rolling Stone commented: "Hendrix pioneered the use of the instrument as an electronic sound source. Players before him had experimented with feedback and distortion, but Hendrix turned those effects and others into a controlled, fluid vocabulary every bit as personal as the blues with which he began."[3][nb 42] Aledort wrote: "In rock guitar, there are but two eras — before Hendrix and after Hendrix."
+    </p>
+</div>
+
+    <!-- Insert code for Like button, Comment button, Comment box here-->
+    <button id="like">Like</button>
+    <p id="likecount">Be the first one to like this!</p>
+    <div>
+        <form method="post">
+            <textarea placeholder="Leave a comment..." id="comment"></textarea>
+            <br>
+            <button id="submitcomment" onclick="savecomment()">Comment</button>
+        </form>
+    </div>
+    <p id="all">All comments</p>
+    <div id="outer">
+        <div id="inner">
+            <ul id="mylists" style="list-style-type: none"></ul>
+        </div>
+    </div>
+    <script src="..\js\post.js" defer></script>
+    <script src="..\js\header.js"></script>
+    
+</body>

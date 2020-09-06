@@ -1,0 +1,133 @@
+/* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
+the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+
+/*Styling for Sign In Button*/
+#signIn{
+	position: absolute;
+	top: 5px;
+	right:90px;
+	padding: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	color: white;
+	background-color: blue;
+}
+/*Styling for Sign Up Button*/
+#signUp{
+	position: absolute;
+	top: 5px;
+	right:5px;
+	padding: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	color: white;
+	background-color: blue;
+}
+/*Styling for Scribbler text*/ 
+.header h1{
+	margin: 2px;
+	color:blue;
+	font-size: 50px;
+}
+
+/* ** for Sign Up modal*/
+.signupmodal{
+	width:100%;
+	height: 100%;
+	background-color: black;
+	background-color: rgba(0,0,0,0.7);
+	position:fixed;
+	z-index: 1;
+	top:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+.signupmodalcontent{
+	width: 300px;
+	height: 450px;
+	background-color: white;
+}
+.getstarted{
+	text-align:  center;
+} /*for Get Started heading*/
+.forms{
+	margin-left: 5px;
+}/*for forms containing full name,username,password,confirm password*/ 
+#upbutton{
+	width: 90%;
+	margin-top: 5px;
+	margin-left: 10px;
+	background-color: #80E719 ;
+	padding: 5px;
+	margin-top: 10px;
+}/*for signup button*/
+.closeup{
+	position: absolute;
+	top: 100px;
+	right:550px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	color: grey; 
+	cursor: pointer;
+}/*for + sign up modal*/
+
+/* ** for Sign In modal*/
+.signinmodal{
+	width:100%;
+	height: 100%;
+	background-color: black;
+	background-color: rgba(0,0,0,0.7);
+	position:fixed;
+	top:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+	z-index: 1;
+}
+.signinmodalcontent{
+	width: 300px;
+	height: 310px;
+	background-color: white;
+}
+.welcomeback{
+	text-align:  center;
+} /*for Get Started heading*/
+.forms{
+	margin-left: 5px;
+}/*for forms containing full name,username,password,confirm password*/ 
+#inbutton{
+	width: 90%;
+	margin-left:10px;
+	margin-top: 5px;
+	background-color: #80E719 ;
+	padding: 5px;
+	margin-top: 10px;
+}/*for signin button*/
+.inputfield{
+	width: 90%;
+	padding: 5px; 
+	background-color: gainsboro;
+	border:1px solid gainsboro;
+}/*for input field in Sign in ,Sign Up and create post modal*/
+.closein{
+	position: absolute;
+	top: 170px;
+	right:550px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	color: grey; 
+	cursor: pointer;
+}/*for + sign in modal*/
+.move{
+	margin: 10px;
+	font-weight: bold;
+	text-align: center;
+}/*for last paragraph in Sign in modal i.e not a member?.....*/
+#signupmove{
+	cursor: pointer;
+	color: blue;
+}
+

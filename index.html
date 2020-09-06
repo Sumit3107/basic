@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Place all CSS for header in this file -->
+    <link href='css\header.css' rel='stylesheet' type='text/css'>
+
+    <!-- Place all CSS for the rest of the elements in this file -->
+    <link href='css\index.css' rel='stylesheet' type='text/css'>
+
+	<!-- Place all CSS for fonts in this file -->
+    <link href='css\font.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div id="main-container-div">
+
+        <div class="header">
+
+        	<!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
+            <h1>ScriBBler</h1>
+            <button id="signIn">Sign In</button>
+            <button id="signUp">Sign Up</button>
+            <p>Explore, Imagine, Create</p>
+        </div>
+           
+        <div class="postButtons">
+
+        	<!-- Insert code for All Posts & Create Post button here -->
+            <a href="html\bloglist.html" target="_blank"><button class="postbutton">All Posts</button></a>
+            <button class="postbutton" id="create">Create Post</button>
+        </div>
+    </div>
+
+    <div>
+
+    	<!-- Insert code for Sign In modal here -->
+        <div class="signinmodal">
+            <div class="signinmodalcontent">
+                <div class="welcomeback">
+                    <div class="closein">+</div>
+                    <h3>Welcome Back!</h3>
+                </div>
+                <hr style="width: 270px; text-align: center;" >
+                <div class="forms">
+                    <form action="post">
+                    <p class="label">Username</p>
+                    <input type="email" placeholder="Enter Username" class="inputfield" required="true">
+                    <p class="label">Password</p>
+                    <input type="password" placeholder="Enter Password" class="inputfield" required="true">
+                    <button id="inbutton">Sign In</button>
+                    <form>
+                </div>
+                <div class="move">
+                    <p>Not a member? <span id="signupmove">Sign Up</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+
+    	<!-- Insert code for Sign Up modal here -->
+        <div class="signupmodal">
+            <div class="signupmodalcontent">
+            <form action='post'>    
+                <div class="getstarted">
+                    <div class="closeup">+</div>
+                    <h3>Get Started</h3>  
+                </div>
+                <hr style="width: 270px; text-align: center;" >
+                <div class="forms">
+                    <form action="post">
+                    <p class="label">Full Name</p>
+                    <input type="text" placeholder="Enter Full Name" class="inputfield" required="true"> 
+                    <p class="label">Username</p>
+                    <input type="email" placeholder="Enter Username" class="inputfield" required="true">
+                    <p class="label">Password</p>
+                    <input type="password" placeholder="Enter Password" class="inputfield" required="true">
+                    <p class="label">Confirm Password</p> 
+                    <input type="password" placeholder="Confirm Password" class="inputfield" required="true">  
+                    <button id="upbutton">Sign Up</button>
+                    </form> 
+                </div> 
+            </div>
+        </div>
+
+
+    </div>
+
+    <div>
+
+    	<!-- Insert code for Create Post modal here -->
+        <div class="createpostmodal">
+            <div class="createpostmodalcontent">
+                <form>
+                    <div class="createpost">
+                        <div class="createclose">+</div>
+                        <h3>Create Post</h3>
+                    </div>
+                    <hr style="width: 470px; text-align: center;" >
+                    <div class="forms">
+                        <p class="label">Username</p>
+                        <input type="email" placeholder="Enter Username" class="inputfield" required="true">
+                        <p class="label">Title</p>
+                        <input type="text" placeholder="Enter title of post" class="inputfield" required="true">
+                        <p class="label">Description</p>
+                        <textarea placeholder="Describe Post" id="descriptionarea"></textarea>
+                        <button id="createpostbutton">Post</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+	<!-- Place all Javascript for header in this file -->
+	<script src="js\header.js"></script>
+	<!-- Place all Javascript for rest of the elements in this file -->
+    <script src="js\index.js"></script>
+
+</body>
+</html>
